@@ -1,0 +1,31 @@
+{
+  "challenge_cases": 60,
+  "v1_1": {
+    "macro_f1": 0.9185421880457341,
+    "uncertain_f1": 0.9523809523809523,
+    "multilabel_macro_f1": 0.9238095238095239,
+    "auto_pass_coverage": 0.38333333333333336,
+    "unsafe_auto_pass_rate": 0.0,
+    "high_confidence_error_rate": 0.023809523809523808
+  },
+  "v2": {
+    "macro_f1": 0.9393874643874643,
+    "uncertain_f1": 0.9,
+    "multilabel_macro_f1": 0.9663352520495377,
+    "auto_pass_coverage": 0.4,
+    "unsafe_auto_pass_rate": 0.041666666666666664,
+    "high_confidence_error_rate": 0.05555555555555555
+  },
+  "operational": {
+    "total_requests": 500,
+    "reviewed_cases": 55,
+    "auto_pass_coverage": 0.392,
+    "human_review_rate": 0.578,
+    "priority_review_rate": 0.03,
+    "audit_sample_rate": 0.0918,
+    "human_ai_agreement_rate": 0.8462,
+    "unsafe_auto_pass_rate": 0.1176,
+    "false_kill_rate": 0.5217,
+    "miss_rate": 0.125
+  }
+}
